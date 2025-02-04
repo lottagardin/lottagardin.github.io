@@ -42,17 +42,56 @@
         </div>
       </nav>
 
+      <main>
+        <div class="modal fade" id="jasenhakemus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="hakemusOtsikko">Jäsenhakemus</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="nimi" class="col-form-label">Nimi</label>
+                      <input type="text" class="form-control" id="nimi">
+                    </div>
+                    <div class="mb-3">
+                        <label for="sahkoposti" class="col-form-label">Sähköposti:</label>
+                        <input type="text" class="form-control" id="sahkoposti">
+                      </div>
+                
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Lähetä jäsenhakemus</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
 <div id="karuselli" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/banneri.JPG" class="d-block w-100" alt="DIY Helsinki ry:n banneri">
-          </div>
+            <div class="carousel-caption ">
+                <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#jasenhakemus">Liity jäseneksi!</button>
+              </div>  
+        </div>
           <div class="carousel-item">
             <img src="images/yleiso.JPG" class="d-block w-100" alt="Kuva DIY Helsinki ry:n järjestämästä tapahtumasta. Kuvassa on artisti Arppa.">
-          </div>
+            <div class="carousel-caption ">
+                <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#jasenhakemus">Liity jäseneksi!</button>
+              </div>  
+        </div>
           <div class="carousel-item">
             <img src="images/makasiini.jpg" class="d-block w-100" alt="Kuva Sörnäisten Kruununmakasiinista">
-          </div>
+            <div class="carousel-caption ">
+                <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#jasenhakemus">Liity jäseneksi!</button>
+              </div>
+        </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#karuselli" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,6 +102,12 @@
           <span class="visually-hidden">Next</span>
         </button>
 </div>
+
+</main>
+
+<footer>
+
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
    
 </body>

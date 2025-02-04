@@ -4,3 +4,6 @@
 .navbar-brand {
     color: #f7adcd
   }
+.carousel-caption {
+    bottom: 0px;
+}
