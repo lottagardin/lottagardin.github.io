@@ -7,3 +7,17 @@
 .carousel-caption {
     bottom: 0px;
 }
+.container-sm {
+    background-color: #727272;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h1 {
+    color: #f7adcd;
+}
+.body {
+    background-color: #393939;
+}
+
