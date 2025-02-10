@@ -7,17 +7,42 @@
 .carousel-caption {
     bottom: 0px;
 }
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+
 .container-sm {
-    background-color: #727272;
+    background-color: #393939;
     text-align: center;
     margin-top: 10px;
-    color: white;
+    color:#f7adcd;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.h1 {
-    color: #f7adcd;
+
+body {
+    background-color: #727272;
 }
-.body {
+footer {
     background-color: #393939;
 }
 
+nav{
+    background-color:#393939;
+}
+
+.button {
+    color: #393939
+}
+.card {
+    background-color: #393939;
+    text-align: center;
+    margin-top: 10px;
+    color: #f7adcd;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}x
+
+h4 {
+    color:#f7adcd
+}
