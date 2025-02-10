@@ -5,7 +5,7 @@ DIY Helsinki ry on voittoa tavoittelematon yhdistys, joka elävöittää kaupunk
 
 Verkkosivujen käyttäjä pystyy rekisteröitymään yhdistyksen jäseneksi, saamaan tietoa yhdistyksestä ja sen historiasta sekä selaamaan tulevia tapahtumia. 
 
-Verkkosivusto on rakennettu käyttäen Bootstrapia sekä HTML5 ja CSS-kieliä. 
+Verkkosivusto on rakennettu käyttäen Bootstrapia sekä HTML ja CSS-kieliä. 
 
 
 ## Sivuston ominaisuudet
