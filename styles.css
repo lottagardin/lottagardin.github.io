@@ -24,8 +24,9 @@
 .container-fluid {
     background-color: #393939;
     text-align: center;
-    margin-top: 0;
     color:#f7adcd;
+    flex:1;
+
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -71,13 +72,16 @@
 }
 body {
     background-color: #727272;
-    height: 100%;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 footer {
     background-color: #393939;
     margin-top: auto;
+    height: auto;
 }
 
 
