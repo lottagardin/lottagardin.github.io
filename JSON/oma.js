@@ -11,16 +11,16 @@ function kerro(data) {
         "<h1>" + otsikko + "</h1><br><h3>"
         + kuvaus + "</h3>" +
         "<img src='" + kuva + "' ><br>" +
-        "<h4>Opintojakso:</h4>" + opintojakso.nimi + " <h4>Tunnus: </h4>" + opintojakso.tunnus + "<h4>Opintopisteet: </h4>" + opintojakso.opintopisteet +
-        "<br> <h4>Sisältö: </h4> " + sisalto.nolla + ", " + sisalto.yksi + ", " + sisalto.kaksi + ", " + sisalto.kolme +
-        "<br> <h4> Tekniikat: </h4>"
-    console.log(tekniikat);
-    var tekniikkateksti = ""
+        "<p>Opintojakso: " + opintojakso.nimi + " <br>Tunnus: </h4>" + opintojakso.tunnus + "<br>Opintopisteet: " + opintojakso.opintopisteet +
+        "<br> <h4>Sisältö: </h4> " + sisalto.nolla + ", " + sisalto.yksi + ", " + sisalto.kaksi + ", " + sisalto.kolme
+        + "<br>"
+
+    var tekniikkateksti = "<h4> Tekniikat: </h4>"
     for (var i = 0; i < tekniikat.length; i++) {
         tekniikkateksti = tekniikkateksti + "<p>Aihe: " + tekniikat[i].aihe + "<br>Linkki: " + tekniikat[i].linkki + "</p>";
     }
 
-    document.getElementById("vastaus").innerHTML = alkuteksti + tekniikkateksti;
+    document.getElementById("vastaus").innerHTML = alkuteksti + "<br>" + tekniikkateksti;
 
 }
 
