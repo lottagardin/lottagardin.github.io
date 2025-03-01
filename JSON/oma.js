@@ -24,8 +24,6 @@ function kerro(data) {
 
 }
 
-console.log("hakee")
-
 fetch('https://lottagardin.github.io/esimerkkidata.json')
 
 
