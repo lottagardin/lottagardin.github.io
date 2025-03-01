@@ -15,13 +15,13 @@
 
     "sisalto": {
 
-        "0": "low-code",
+        "nolla": "low-code",
 
-        "1": "sisällönhallintajärjestelmät",
+        "yksi": "sisällönhallintajärjestelmät",
 
-        "2": "resposiivinen käyttöliittymä ja komponentit",
+        "kaksi": "resposiivinen käyttöliittymä ja komponentit",
 
-        "3": "tiedon haku julkisista palveluista rest-rajapinnan yli"
+        "kolme": "tiedon haku julkisista palveluista rest-rajapinnan yli"
         },
     "tekniikat": [
 
