@@ -1,0 +1,15 @@
+{
+    "nimi": "Digitekniikat",
+    "osallistujalkm": 5,
+    "osallistujat":{
+        "nolla": "Lotta Gardin",
+        "yksi": "Matti Meikäläinen",
+        "kaksi": "Maija Mehiläinen",
+        "kolme": "Esimerkki Nimi",
+        "neljä": "Nimi Esimerkki"
+    },
+    "alkamisaika": "13.1.2025",
+    "loppumisaika": "14.3.2025",
+    "kesto viikkoina": 8,
+    "kuva": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg"
+}
