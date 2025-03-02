@@ -10,7 +10,7 @@ function kerro(data) {
         "<br><h4> Osallistujat: </h4> " + osallistujat.nolla + ", " + osallistujat.yksi + ", " + osallistujat.kaksi + ", " + osallistujat.kolme + " & " + osallistujat.neljä +
         "<br><h4> Alkamisaika: </h4> " + data.alkamisaika +
         "<br><h4> Loppumisaika: </h4>" + data.loppumisaika +
-        "<br><h4> Kesto viikkoina: </h4>" + data.kesto +
+        "<br><h4> Kesto viikkoina: </h4>" + data.kesto + "<br>" +
         "<img src='" + kuva + "' >"
 
     //Vie tekstin html-sivulle

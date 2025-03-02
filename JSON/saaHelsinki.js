@@ -35,7 +35,7 @@ function helsinkiSaa(data) {
 }
 
 //Hakee säätiedot
-fetch('http://api.weatherstack.com/current?access_key=7435afc4877ffc442b19d0d4f4086b9d&query=Helsinki')
+fetch('https://api.weatherstack.com/current?access_key=11644898d7933ad3b678ce8516e01553&query=Helsinki')
 
 
     //Muokkaa vastauksen json-objektiksi
