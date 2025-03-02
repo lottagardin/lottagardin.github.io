@@ -8,7 +8,7 @@ function kuvat(data) {
 
     for (var i = 0; i < kuvat.length; i++) {
 
-        teksti = teksti + aika + "<br><img src='" + kuvat[i].imageUrl + "'>";
+        teksti = teksti + aika + "<br><img src='" + kuvat[i].imageUrl + "'><br>";
 
     }
 
