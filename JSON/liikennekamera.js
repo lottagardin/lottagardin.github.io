@@ -1,6 +1,6 @@
 function kuvat(data) {
 
-    var teksti = "<h1>Autolla tampereelle</h1><br><p>Minkälainen keli siellä on?</p>"; //alustaa tekstimuuttujan
+    var teksti = "<h1>Autolla Tampereelle</h1><br><p>Minkälainen keli siellä on?</p>"; //alustaa tekstimuuttujan
     var kuvat = data.properties.presets; //hakee kuva-arrayn json-objektista
     var aika = data.properties.dataUpdatedTime; //hakee kuvien ottoajan
 

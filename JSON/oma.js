@@ -20,7 +20,7 @@ function kerro(data) {
     //Iteroi tekniikoiden läpi ja noukkii sieltä aiheen sekä linkin ja lisää ne listaan
     var tekniikkateksti = "<h4> Tekniikat: </h4>"
     for (var i = 0; i < tekniikat.length; i++) {
-        tekniikkateksti = tekniikkateksti + "<p>Aihe: " + tekniikat[i].aihe + "<br>Linkki: " + tekniikat[i].linkki + "</p>";
+        tekniikkateksti = tekniikkateksti + "<p>Aihe: " + tekniikat[i].aihe + "<br>Linkki: <a href='" + tekniikat[i].linkki + "' target='_blank'>" + tekniikat[i].linkki + "</a></p>";
     }
 
     //Yhdistää alkutekstin ja tekniikkatekstin ja vie sen kurssitoteutuksen html -sivulle
