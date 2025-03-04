@@ -12,15 +12,6 @@
     filter: invert(100%);
 }
 
-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 50vh; /* Adjust based on preference */
-}
-
 
 
 .container-sm {
