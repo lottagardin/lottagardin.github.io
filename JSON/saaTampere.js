@@ -14,19 +14,16 @@ function saa(data) {
 
 
 //Hakee Tampereen säätiedot
-fetch('https://api.weatherapi.com/v1/current.json?key=feb2dc7e7a7b45dea9b163808250203&q=Tampere&aqi=no')
+fetch('https://api.weatherapi.com/v1/current.json?key=4242486b3022405e9e9140944250603&q=Tampere&aqi=no')
 
     //Muokkaa vastauksen json-objektiksi
     .then(function (response) {
-
         return response.json();
 
     })
 
     //Kutsuu saa -funktiota ja vie sille json-objektin parametrina 
     .then(function (responseJson) {
-        console.log(responseJson);
-
         saa(responseJson);
 
     })

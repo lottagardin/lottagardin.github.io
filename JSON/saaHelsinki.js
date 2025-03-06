@@ -14,7 +14,7 @@ function helsinkiSaa(data) {
 }
 
 //Hakee säätiedot
-fetch('https://api.weatherapi.com/v1/current.json?key=feb2dc7e7a7b45dea9b163808250203&q=Helsinki&aqi=no')
+fetch('https://api.weatherapi.com/v1/current.json?key=4242486b3022405e9e9140944250603&q=Helsinki&aqi=no')
 
 
     //Muokkaa vastauksen json-objektiksi
