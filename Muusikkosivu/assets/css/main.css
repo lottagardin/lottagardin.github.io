@@ -486,6 +486,10 @@ h6 {
   font-weight: 400;
 }
 
+.page-title .breadcrumbs a {
+  color:#f0dfba;
+}
+
 .page-title .breadcrumbs ol li+li {
   padding-left: 10px;
 }
@@ -512,7 +516,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
 }
 
